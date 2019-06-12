@@ -1,0 +1,9 @@
+<suite name="Build 1.1_22May2019">
+	<test name=" MyResultsV1">
+		<classes>
+			<class name="testNG.FaceBookLogin"></class>
+			<class name="testNG.Anatation_Sample1"></class>
+			<class name="testNG.Priority_TestNG"></class>
+		</classes>
+	</test>
+</suite>

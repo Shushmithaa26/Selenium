@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CBT_Suite]">
+  <test thread-count="5" name="EdgeTestResult(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testNG.FB_CrossBrowserTesting">
+        <methods>
+          <include name="fblogin"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testNG.FB_CrossBrowserTesting -->
+    </classes>
+  </test> <!-- EdgeTestResult(failed) -->
+</suite> <!-- Failed suite [CBT_Suite] -->
